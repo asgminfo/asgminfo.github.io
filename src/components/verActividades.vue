@@ -20,7 +20,7 @@ export default {
   },  
   //estado cuando se crea la app
   created(){
-    this.$http.get('http://jsonplaceholder.typicode.com/posts').then(function (data) {
+    this.$http.get('https://jsonplaceholder.typicode.com/posts').then(function (data) {
         console.log(data);        
         this.actividades = data.body.slice(0, 10)
     })
