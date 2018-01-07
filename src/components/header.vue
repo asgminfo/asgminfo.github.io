@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li><router-link to="/" exact>Actividades</router-link></li>
-            <li><router-link to="/actividad/agregarActividad" exact>Agregar Actividad</router-link></li>
+            <li><router-link to="/agregarActividad" exact>Agregar Actividad</router-link></li>
         </ul>
     </nav>
 </template>
