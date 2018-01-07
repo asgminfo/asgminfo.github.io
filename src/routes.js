@@ -1,6 +1,6 @@
-import verActividades from './components/verActividades.vue'
-import agregarActividad from './components/agregarActividad.vue'
-import actividad from './components/actividad.vue'
+import verActividades from './components/actividad/verActividades.vue'
+import agregarActividad from './components/actividad/agregarActividad.vue'
+import actividad from './components/actividad/actividad.vue'
 
 export default[
     {

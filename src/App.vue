@@ -6,8 +6,8 @@
 </template>
 
 <script>  
-import agregarActividad from './components/agregarActividad'
-import verActividades from './components/verActividades'
+import agregarActividad from './components/actividad/agregarActividad'
+import verActividades from './components/actividad/verActividades'
 import header from './components/header'
 
 export default {
